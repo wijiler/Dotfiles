@@ -1,7 +1,7 @@
 # Dotfiles
 Wijiler's dotfiles
-<h1 align="center"> - Resources </h1>
--
+# - Resources 
+
 
 - [starship](https://starship.rs/)
 
