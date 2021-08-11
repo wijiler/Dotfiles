@@ -1,0 +1,15 @@
+# Use custom format
+format = """
+[│](bold green)$directory$git_branch$rust$package
+[└─❯](bold green) """
+
+
+scan_timeout = 10
+
+
+add_newline = false
+
+[git_branch]
+symbol = " "
+truncation_length = 4
+truncation_symbol = "..."
