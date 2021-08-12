@@ -8,5 +8,5 @@ sudo mv bash/.bashrc ~/
 
 # move vimrc
 mkdir ~/.vim
-mv vim/.vimrc
+mv vim/.vimrc ~/
 
