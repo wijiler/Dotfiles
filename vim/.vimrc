@@ -22,6 +22,7 @@ highlight CoulorColumn ctermbg=0 guibg=lightgrey
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
+Plug 'rakr/vim-one'
 Plug 'preservim/nerdtree'
 Plug 'jremmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
@@ -29,14 +30,21 @@ Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
 Plug 'kien/ctrlp.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'Valloric/YouCompleteMe'
 Plug 'mbbill/undotree'
 Plug 'ryanoasis/vim-devicons'
 
+
+
 call plug#end()
 
-colorscheme gruvbox
+
 " transparent bg
+colorscheme gruvbox
+
+let g:airline_theme='one'
 set background=dark
 
 if executable('rg')
