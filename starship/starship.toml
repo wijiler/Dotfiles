@@ -1,6 +1,6 @@
 # Use custom format
 format = """
-[│](bold green)$directory$git_branch$git_status$rust$package
+[│](bold green)$directory$git_branch$git_status$git_commit$rust$package
 [└─❯](bold green) """
 
 
@@ -22,3 +22,7 @@ modified = ""
 staged = '[++\($count\)](green)'
 renamed = "📝📁"
 deleted = "🗑"
+
+[git_commit]
+commit_hash_length = 4
+tag_symbol = "🔖 "
