@@ -59,7 +59,7 @@ let g:netrw_winsize = 25
 let g:ctrlp_use_caching = 0
 
 nnoremap <leader>u :UndoTreeShow<CR>
-nnoremap <leader>e :wincmd v <bar> :Explore <bar> :vertical resize 30<CR>
+nnoremap <leader>e :NERDTree<CR>
 nnoremap <leader>+ :vertical resize +5<CR>
 nnoremap <leader>- :vertical resize -5<CR>
 nnoremap <leader>s :Rg<CR>
