@@ -1,7 +1,7 @@
 # Use custom format
 format = """
-[│](bold green)$directory$git_branch$git_status$git_commit$rust$package
-[└─❯](bold green) """
+(light blue)$directory$git_branch$git_status$git_commit$rust$package
+$time[❯](bold green) """
 
 
 scan_timeout = 10
@@ -20,9 +20,8 @@ untracked = "🤷‍"
 stashed = "📦"
 modified = ""
 staged = '[++\($count\)](green)'
-renamed = "📝📁"
-deleted = "🗑"
+renamed = ""
+deleted = "xxx"
 
 [git_commit]
 commit_hash_length = 4
-tag_symbol = "🔖 "
