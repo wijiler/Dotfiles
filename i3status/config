@@ -1,0 +1,35 @@
+general {
+        output_format = "i3bar"
+        colors = false
+        markup = pango
+        interval = 5
+        color_good = '#2f343f'
+		color_degraded = '#ebcb8b'
+		color_bad = '#ba5e57'
+}
+
+order += "load"
+order += "disk /"
+order += "disk /home"
+order += "volume master"
+
+load {
+        format = "<span background='#063970'> 🔥 %5min Load </span>"	
+}
+
+disk "/" {
+        format = "<span background='#21130d'>  %free Free </span>"
+}
+
+disk "/home" {
+        format = "<span background='#a1d569'>  %free Free </span>"
+}
+
+volume master {
+        format = "<span background='#ebcb8b'> 🔊 %volume </span>"
+        format_muted = "<span background='#ebcb8b'> 🔇 Muted </span>"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
+
