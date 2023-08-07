@@ -22,7 +22,11 @@ use {
 }
 use 'sharkdp/fd'
 use 'BurntSushi/ripgrep'
--- use 'shaunsingh/nord.nvim'
-use 'morhetz/gruvbox'
+--use 'morhetz/gruvbox'
+use 'wijiler/wrubox'
 use 'rluba/jai.vim'
-  end)
+use 'evanleck/vim-svelte'
+use 'pest-parser/pest.vim'
+use 'Tetralux/odin.vim'
+  end)                                          
+

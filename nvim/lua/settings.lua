@@ -1,2 +1,2 @@
-vim.cmd[[colorscheme gruvbox]]
+vim.cmd[[colorscheme gruvbox-flat]]
 vim.wo.number = true
