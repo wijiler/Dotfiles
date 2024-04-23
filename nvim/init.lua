@@ -1,4 +1,7 @@
-require('packer-setup')
+require('packersetup')
+--require('lsp')
 require('keybinds')
 require('plugins')
+require('plugins.lsp')
+require('plugins.jai')
 require('settings')
